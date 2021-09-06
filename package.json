@@ -1,5 +1,5 @@
 {
-  "name": "suggestify",
+  "name": "recommendify",
   "version": "1.0.0",
   "description": "Create private playlist for your spotify account. ",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IkumaTadokoro/suggestify.git"
+    "url": "git+https://github.com/IkumaTadokoro/recommendify.git"
   },
   "keywords": [
     "spotify"
