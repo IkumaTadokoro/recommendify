@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const program = require('commander')
 const setToken = require('./lib/set-token')
 const createPlaylist = require('./lib/create-playlist')
