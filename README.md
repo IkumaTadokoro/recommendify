@@ -6,6 +6,8 @@ Create private playlist for your spotify account.
 
 ```
 % npm install -g recommendify
+
+# Run only for the first time
 % suggestify settoken
 ```
 
