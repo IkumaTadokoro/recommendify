@@ -15,7 +15,7 @@ const main = () => {
 
   program
     .command('createPlaylist', { isDefault: true })
-    .description('<Default> Create private playlist for your spotify account. Note:Require \'suggestify settoken\' command before the first time you run.')
+    .description('<Default> Create private playlist for your spotify account. Note:Require \'recommendify settoken\' command before the first time you run.')
     .action(() => createPlaylist())
 
   program
