@@ -13,8 +13,23 @@ Answer the following 4 questions, and recommendify create a playlist matches you
 % npm install -g recommendify
 
 # Run only for the first time
-% suggestify settoken
+# Check 'How to set access token' in this document.
+% recommendify settoken
+
+% recommendify
 ```
+
+## How to set access token
+
+1. Access and login your Spotify Dashboard: https://developer.spotify.com/dashboard/
+2. Choose 'CREATE AN APP' and create your app.
+![create-app.png](image/create-app.png)
+3. Add Redirect URIs via 'EDIT SETTINGS': http://localhost:8888/callback
+![add_redirect_url.png](image/add_redirect_url.png)
+4. Copy your 'Client ID' and 'Client Secret' for the next step.
+![credentials.png](image/credentials.png)
+5. Run `recommendify settoken` and enter your credentials. You can retrive access token
+![recommendify-settoken.png](image/recommendify-settoken.png)
 
 ## Usage
 
@@ -32,14 +47,3 @@ Commands:
 
 ![recommendify.gif](image/recommendify.gif)
 
-### How to set access token
-
-1. Access and login your Spotify Dashboard: https://developer.spotify.com/dashboard/
-2. Choose 'CREATE AN APP' and create your app.
-![create-app.png](image/create-app.png)
-3. Add Redirect URIs via 'EDIT SETTINGS': http://localhost:8888/callback
-![add_redirect_url.png](image/add_redirect_url.png)
-4. Copy your 'Client ID' and 'Client Secret' for the next step.
-![credentials.png](image/credentials.png)
-5. Run `recommendify settoken` and enter your credentials. You can retrive access token
-![recommendify-settoken.png](image/recommendify-settoken.png)
