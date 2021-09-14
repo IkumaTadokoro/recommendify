@@ -34,7 +34,7 @@ Answer the following 4 questions, and recommendify create a playlist matches you
 ## Usage
 
 ```
-Usage: index [options] [command]
+Usage: recommendify [options] [command]
 
 Options:
   -h, --help      display help for command
