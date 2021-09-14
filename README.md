@@ -3,7 +3,7 @@
 Answer the following 4 questions, and recommendify create a playlist matches your answers.
 
 1. 1-3 songs from the songs you've listened to recently.
-2. Valence of songs.
+2. Positiveness of songs.
 3. Popularity of artists.
 4. BPM of songs.
 
