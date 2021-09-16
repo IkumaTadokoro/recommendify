@@ -1,6 +1,6 @@
 {
   "name": "recommendify",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Create private playlist for your spotify account. ",
   "main": "index.js",
   "directories": {
